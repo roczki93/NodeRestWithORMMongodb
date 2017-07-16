@@ -1,0 +1,17 @@
+{
+  "name": "NodeMongoRest",
+  "version": "1.0.0",
+  "description": "Node Mongodb REST",
+  "main": "index.js",
+  "scripts": {
+     "start": "nodemon server.js"
+  },
+  "devDependencies": {
+  "nodemon": "^1.11.*"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.*",
+    "express": "^4.14.*",
+    "mongoose": "^4.7.*"
+  }
+}
